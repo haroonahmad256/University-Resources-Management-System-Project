@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="bpmstudio-bpm-inspector-state">
+    <option name="statesByFile">
+      <map>
+        <entry key="$PROJECT_DIR$/src/GUI/MainDashboard.form">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="Field_10gy96d">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Layout" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Form_0crwwns">
+                    <value>
+                      <ExpandedItems />
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

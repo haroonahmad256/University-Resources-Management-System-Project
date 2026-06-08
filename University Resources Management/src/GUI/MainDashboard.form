@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.MainDashboard">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="2091" height="736"/>
+    </constraints>
+    <properties>
+      <background color="-2761236"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="empty"/>
+    <children>
+      <grid id="36765" layout-manager="FlowLayout" hgap="5" vgap="25" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-14800581"/>
+          <preferredSize width="200" height="-1"/>
+        </properties>
+        <border type="empty" title="Sidebar" title-justification="2" title-position="3">
+          <font size="20" style="1"/>
+          <title-color color="-460036"/>
+        </border>
+        <children>
+          <component id="4e5f1" class="javax.swing.JButton" binding="dashboardButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-12877066"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <focusable value="true"/>
+              <font size="15" style="1"/>
+              <foreground color="-460036"/>
+              <preferredSize width="180" height="50"/>
+              <selected value="false"/>
+              <text value="Dashboard"/>
+            </properties>
+          </component>
+          <component id="aaaf2" class="javax.swing.JButton" binding="schedulesButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-12877066"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="15" style="1"/>
+              <foreground color="-460036"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Schedules"/>
+            </properties>
+          </component>
+          <component id="157fc" class="javax.swing.JButton" binding="roomsButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-12877066"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="15" style="1"/>
+              <foreground color="-460036"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Rooms"/>
+            </properties>
+          </component>
+          <component id="40bea" class="javax.swing.JButton" binding="Teachers">
+            <constraints/>
+            <properties>
+              <background color="-12877066"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="15" style="1"/>
+              <foreground color="-460036"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Teachers"/>
+            </properties>
+          </component>
+          <component id="9f53f" class="javax.swing.JButton" binding="batchButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-12877066"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="15" style="1"/>
+              <foreground color="-460036"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Batch"/>
+            </properties>
+          </component>
+          <component id="fe3df" class="javax.swing.JButton" binding="logoutButton">
+            <constraints/>
+            <properties>
+              <background color="-12877066"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="15" style="1"/>
+              <foreground color="-460036"/>
+              <preferredSize width="180" height="50"/>
+              <text value="Logout"/>
+            </properties>
+          </component>
+          <component id="7da41" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font size="18"/>
+              <foreground color="-1"/>
+              <text value="Logged In As:"/>
+            </properties>
+          </component>
+          <component id="860e3" class="javax.swing.JLabel" binding="userName">
+            <constraints/>
+            <properties>
+              <font size="18" style="2"/>
+              <foreground color="-1"/>
+              <text value="[Name]"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5f6fb" binding="titlePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14800581"/>
+          <name value="University"/>
+          <preferredSize width="-1" height="60"/>
+        </properties>
+        <border type="line" title="" title-justification="1">
+          <font/>
+          <color color="-13418155"/>
+        </border>
+        <children>
+          <component id="29213" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font size="35" style="1"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <text value="UNIVERSITY RESOURCES MANAGER"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="13830" binding="MainContentPanel" custom-create="true" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-15788246"/>
+        </properties>
+        <border type="empty" title=""/>
+        <children>
+          <grid id="e6594" binding="MainDashBoard" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="MainDashBoard"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-920071"/>
+              <foreground color="-3025959"/>
+            </properties>
+            <border type="empty" title="Main Dashboard" title-justification="2">
+              <font size="20" style="1"/>
+              <title-color color="-14800581"/>
+            </border>
+            <children>
+              <grid id="ccd80" binding="statsPanel" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="-1">
+                <margin top="0" left="0" bottom="15" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <background color="-1"/>
+                  <preferredSize width="-1" height="90"/>
+                </properties>
+                <border type="line" title="">
+                  <color color="-1906448"/>
+                </border>
+                <children>
+                  <grid id="e6d28" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <alignmentY value="0.5"/>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="line" title="Total Teachers" title-justification="2">
+                      <font size="14" style="1"/>
+                      <title-color color="-10193781"/>
+                      <color color="-1906448"/>
+                    </border>
+                    <children>
+                      <component id="f4e1c" class="javax.swing.JLabel" binding="totalTeacherValue">
+                        <constraints/>
+                        <properties>
+                          <font size="25" style="1"/>
+                          <foreground color="-12877066"/>
+                          <text value="value"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="3f711" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                      <toolTipText value="ToolTip"/>
+                    </properties>
+                    <border type="line" title="Total Clashes" title-justification="2">
+                      <font size="14" style="1"/>
+                      <title-color color="-6743269"/>
+                    </border>
+                    <children>
+                      <component id="48071" class="javax.swing.JLabel" binding="numberOfClashes">
+                        <constraints/>
+                        <properties>
+                          <font size="25" style="1"/>
+                          <foreground color="-1096636"/>
+                          <text value="No Clash"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b75b8" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="line" title="Total Rooms" title-justification="2">
+                      <font size="14" style="1"/>
+                      <title-color color="-10193781"/>
+                      <color color="-1906448"/>
+                    </border>
+                    <children>
+                      <component id="105fb" class="javax.swing.JLabel" binding="totalRoomValue">
+                        <constraints/>
+                        <properties>
+                          <font size="25" style="1"/>
+                          <foreground color="-12877066"/>
+                          <text value="value"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="16425" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1"/>
+                    </properties>
+                    <border type="line" title="Total Batches" title-justification="2">
+                      <font size="14" style="1"/>
+                      <title-color color="-10193781"/>
+                      <color color="-1906448"/>
+                    </border>
+                    <children>
+                      <component id="ac860" class="javax.swing.JLabel" binding="totalBatchValue">
+                        <constraints/>
+                        <properties>
+                          <font size="25" style="1"/>
+                          <foreground color="-12877066"/>
+                          <text value="value"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="f8307" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="South"/>
+                <properties>
+                  <alignmentX value="0.5"/>
+                  <autoscrolls value="true"/>
+                  <background color="-920071"/>
+                  <preferredSize width="1200" height="130"/>
+                </properties>
+                <border type="line" title="Manual Resources Checker">
+                  <font size="25" style="1"/>
+                  <title-color color="-14800581"/>
+                  <size top="5" left="10" bottom="5" right="10"/>
+                  <color color="-1906448"/>
+                </border>
+                <children>
+                  <grid id="79b39" layout-manager="BorderLayout" hgap="15" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                      <preferredSize width="260" height="34"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="1616c" class="javax.swing.JLabel">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Resource:"/>
+                        </properties>
+                      </component>
+                      <component id="498a6" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-13418155"/>
+                          <minimumSize width="1" height="34"/>
+                          <model>
+                            <item value="Teacher"/>
+                            <item value="Room"/>
+                            <item value="Batch"/>
+                          </model>
+                          <preferredSize width="200" height="34"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="202fb" layout-manager="BorderLayout" hgap="10" vgap="0">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="4052f" class="javax.swing.JLabel">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Start Time:"/>
+                        </properties>
+                      </component>
+                      <component id="51c03" class="javax.swing.JSpinner" binding="spinner2">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-13418155"/>
+                          <preferredSize width="180" height="34"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="63b40" layout-manager="BorderLayout" hgap="5" vgap="0">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="7eaf6" class="javax.swing.JLabel">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Resource Id:"/>
+                        </properties>
+                      </component>
+                      <component id="f64cb" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-14800581"/>
+                          <preferredSize width="180" height="34"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="24574" layout-manager="BorderLayout" hgap="15" vgap="0">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="a84f2" class="javax.swing.JLabel">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="End Time:"/>
+                        </properties>
+                      </component>
+                      <component id="28922" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-13418155"/>
+                          <preferredSize width="180" height="34"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="eeef7" layout-manager="BorderLayout" hgap="49" vgap="0">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="7930" class="javax.swing.JLabel">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Day:"/>
+                        </properties>
+                      </component>
+                      <component id="58ea2" class="javax.swing.JComboBox" binding="dayBox">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-13418155"/>
+                          <minimumSize width="1" height="34"/>
+                          <model>
+                            <item value="Monday"/>
+                            <item value="Tuesday"/>
+                            <item value="Wednesday"/>
+                            <item value="Thursday"/>
+                            <item value="Friday"/>
+                          </model>
+                          <preferredSize width="200" height="34"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="6b08b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="7" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty">
+                      <size top="0" left="4" bottom="0" right="0"/>
+                    </border>
+                    <children>
+                      <component id="17fd0" class="javax.swing.JButton" binding="checkAvailabilityButton" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <alignmentX value="0.0"/>
+                          <background color="-12877066"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <focusable value="true"/>
+                          <foreground color="-460036"/>
+                          <hideActionText value="false"/>
+                          <horizontalAlignment value="0"/>
+                          <margin top="0" left="0" bottom="0" right="0"/>
+                          <preferredSize width="180" height="34"/>
+                          <text value="Check Availability"/>
+                        </properties>
+                      </component>
+                      <component id="91a31" class="javax.swing.JLabel" binding="status">
+                        <constraints/>
+                        <properties>
+                          <font size="17"/>
+                          <foreground color="-13418155"/>
+                          <text value="[Status]"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="62595">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="fa17c" class="javax.swing.JTable" binding="ClashesTable">
+                    <constraints/>
+                    <properties>
+                      <background color="-1"/>
+                      <foreground color="-14800581"/>
+                      <gridColor color="-920071"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+          <grid id="41bd5" binding="RoomsPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="RoomsPanel"/>
+            </constraints>
+            <properties>
+              <background color="-920071"/>
+            </properties>
+            <border type="empty" title="Rooms Menu" title-justification="2">
+              <font size="20" style="1"/>
+              <title-color color="-14800581"/>
+            </border>
+            <children>
+              <grid id="4f203" binding="RoomSubPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="empty" title=""/>
+                <children>
+                  <grid id="9b158" binding="ActionButtonRoomPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="empty" title=""/>
+                    <children>
+                      <component id="d8101" class="javax.swing.JButton" binding="addRoomButton">
+                        <constraints/>
+                        <properties>
+                          <actionCommand value="Add Room"/>
+                          <background color="-15681151"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Add Room"/>
+                        </properties>
+                      </component>
+                      <component id="5ba42" class="javax.swing.JButton" binding="updateRoomButton">
+                        <constraints/>
+                        <properties>
+                          <actionCommand value="Update Room"/>
+                          <background color="-12877066"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Update Room"/>
+                        </properties>
+                      </component>
+                      <component id="ede62" class="javax.swing.JButton" binding="deleteRoomButton">
+                        <constraints/>
+                        <properties>
+                          <actionCommand value="Delete Room"/>
+                          <background color="-1096636"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Delete Room"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="2fb24" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty">
+                      <title-color color="-1906448"/>
+                      <size top="10" left="0" bottom="10" right="0"/>
+                      <color color="-1906448"/>
+                    </border>
+                    <children>
+                      <component id="2d11d" class="javax.swing.JButton" binding="searchTRoomButton">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <background color="-12877066"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <hideActionText value="false"/>
+                          <preferredSize width="150" height="34"/>
+                          <text value="Search Room"/>
+                        </properties>
+                      </component>
+                      <component id="d18f0" class="javax.swing.JTextField" binding="RoomSearchTextField">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-460036"/>
+                          <caretColor color="-4473925"/>
+                          <font size="14"/>
+                          <foreground color="-13418155"/>
+                          <preferredSize width="1000" height="34"/>
+                          <text value="Search Room By Id"/>
+                          <toolTipText value="Search Room by Name or Id"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <scrollpane id="fc871" binding="RoomsList">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none" title="" title-justification="2">
+                      <font name="Consolas" size="20" style="1"/>
+                    </border>
+                    <children>
+                      <component id="41448" class="javax.swing.JTable" binding="TableRoom">
+                        <constraints/>
+                        <properties>
+                          <gridColor color="-920071"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="2b88d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-14800581"/>
+                      <font size="20" style="1"/>
+                      <foreground color="-14800581"/>
+                      <text value="Rooms List"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="4f57c" binding="BatchesPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="BatchesPanel"/>
+            </constraints>
+            <properties>
+              <background color="-920071"/>
+            </properties>
+            <border type="empty" title=" Batch Menu" title-justification="2">
+              <font size="20" style="1"/>
+              <title-color color="-14800581"/>
+            </border>
+            <children>
+              <grid id="1faf8" binding="BatchSubPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="empty" title=""/>
+                <children>
+                  <grid id="79987" binding="BatchActionButtonsPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="empty" title=""/>
+                    <children>
+                      <component id="b8ee6" class="javax.swing.JButton" binding="addBatchButton">
+                        <constraints/>
+                        <properties>
+                          <actionCommand value="Add Batch"/>
+                          <background color="-15681151"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Add Batch"/>
+                        </properties>
+                      </component>
+                      <component id="d5c2a" class="javax.swing.JButton" binding="updateBatchButton">
+                        <constraints/>
+                        <properties>
+                          <actionCommand value="Update Batch"/>
+                          <background color="-12877066"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Update Batch"/>
+                        </properties>
+                      </component>
+                      <component id="40991" class="javax.swing.JButton" binding="deleteBatchButton">
+                        <constraints/>
+                        <properties>
+                          <actionCommand value="Delete Batch"/>
+                          <background color="-1096636"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Delete Batch"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="794a1" binding="BatchSearchBarPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty">
+                      <title-color color="-1906448"/>
+                      <size top="10" left="0" bottom="10" right="0"/>
+                      <color color="-1906448"/>
+                    </border>
+                    <children>
+                      <component id="73226" class="javax.swing.JTextField" binding="searchBarBatch">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-460036"/>
+                          <caretColor color="-4473925"/>
+                          <font size="14"/>
+                          <foreground color="-13418155"/>
+                          <preferredSize width="1000" height="34"/>
+                          <text value="Search Batch By Id"/>
+                          <toolTipText value="Search Batch by Name or Id"/>
+                        </properties>
+                      </component>
+                      <component id="541fe" class="javax.swing.JButton" binding="searchBatchButton">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <background color="-12877066"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="150" height="34"/>
+                          <text value="Search Batch"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <scrollpane id="28430" binding="BatchPanel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none" title="" title-justification="2">
+                      <font name="Consolas" size="20" style="1"/>
+                    </border>
+                    <children>
+                      <component id="b6a00" class="javax.swing.JTable" binding="BatchTable">
+                        <constraints/>
+                        <properties>
+                          <gridColor color="-920071"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="9fe29" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <foreground color="-14800581"/>
+                      <text value="Batches List"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="2cade" binding="SchedulePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="SchedulePanel"/>
+            </constraints>
+            <properties>
+              <background color="-920071"/>
+              <foreground color="-3025959"/>
+            </properties>
+            <border type="empty" title="Schedule Menu" title-justification="2">
+              <font size="20" style="1"/>
+              <title-color color="-14800581"/>
+            </border>
+            <children>
+              <grid id="b7167" layout-manager="FlowLayout" hgap="5" vgap="15" flow-align="0">
+                <constraints border-constraint="West"/>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-1906448"/>
+                  <focusTraversalPolicyProvider value="true"/>
+                  <minimumSize width="100" height="84"/>
+                  <opaque value="true"/>
+                  <preferredSize width="200" height="84"/>
+                </properties>
+                <border type="empty" title="ScheduleEntry" title-justification="2">
+                  <font size="17" style="1"/>
+                  <title-color color="-14800591"/>
+                </border>
+                <children>
+                  <grid id="526ff" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="51"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="f5ecc" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Teacher:"/>
+                        </properties>
+                      </component>
+                      <component id="77891" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <focusable value="false"/>
+                          <foreground color="-14800581"/>
+                          <lightWeightPopupEnabled value="true"/>
+                          <model/>
+                          <requestFocusEnabled value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="5be95" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="51"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="10b56" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Batch:"/>
+                        </properties>
+                      </component>
+                      <component id="ce02e" class="javax.swing.JComboBox" binding="batchComboBox">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <focusable value="false"/>
+                          <foreground color="-14800581"/>
+                          <model/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c8fe4" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="51"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="9822e" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Room:"/>
+                        </properties>
+                      </component>
+                      <component id="5357d" class="javax.swing.JComboBox" binding="roomComboBox">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <focusable value="false"/>
+                          <foreground color="-14800581"/>
+                          <model/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="32122" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="51"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="5b711" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Day:"/>
+                        </properties>
+                      </component>
+                      <component id="ac857" class="javax.swing.JComboBox" binding="dayComboBOx">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <focusable value="false"/>
+                          <foreground color="-14800581"/>
+                          <model>
+                            <item value="Monday"/>
+                            <item value="Tuesday"/>
+                            <item value="Wednesday"/>
+                            <item value="Thursday"/>
+                            <item value="Friday"/>
+                          </model>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="8d499" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="51"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="e3469" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Assign Schdule Id:"/>
+                        </properties>
+                      </component>
+                      <component id="e7bb4" class="javax.swing.JTextField" binding="assignSchduleAnIdTextField" default-binding="true">
+                        <constraints border-constraint="Center"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-14800581"/>
+                          <text value="Assign Schdule an Id"/>
+                          <toolTipText value="Assign this schedule an Id"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a4c62" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="51"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="91a4e" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="Start Time:"/>
+                        </properties>
+                      </component>
+                      <component id="fc06d" class="javax.swing.JSpinner" binding="spinnerStarttime">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-14800581"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="92c1c" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="51"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <component id="7e48b" class="javax.swing.JLabel">
+                        <constraints border-constraint="North"/>
+                        <properties>
+                          <foreground color="-13418155"/>
+                          <text value="End Time:"/>
+                        </properties>
+                      </component>
+                      <component id="c3238" class="javax.swing.JSpinner" binding="spinnerEndtime">
+                        <constraints border-constraint="South"/>
+                        <properties>
+                          <background color="-920071"/>
+                          <foreground color="-14800581"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="cb5ef" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties/>
+                    <border type="empty"/>
+                    <children/>
+                  </grid>
+                  <component id="5bee6" class="javax.swing.JButton" binding="scheduleEntryButton" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <background color="-12877066"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <font size="15"/>
+                      <foreground color="-460036"/>
+                      <horizontalAlignment value="0"/>
+                      <preferredSize width="180" height="54"/>
+                      <text value="Schedule Entry"/>
+                    </properties>
+                  </component>
+                  <grid id="28852" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <background color="-1906448"/>
+                      <preferredSize width="180" height="27"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <scrollpane id="2b1e3" binding="scrollPane1">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <autoscrolls value="true"/>
+                  <requestFocusEnabled value="false"/>
+                </properties>
+                <border type="none" title=""/>
+                <children>
+                  <component id="b76a5" class="javax.swing.JTable" binding="table1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <autoCreateColumnsFromModel value="true"/>
+                      <background color="-1"/>
+                      <dragEnabled value="false"/>
+                      <dropMode value="ON"/>
+                      <foreground color="-14800581"/>
+                      <gridColor color="-920071"/>
+                      <selectionBackground color="-2364674"/>
+                      <selectionForeground color="-14800571"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <grid id="2470b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                <constraints border-constraint="South"/>
+                <properties>
+                  <background color="-1906448"/>
+                  <focusable value="true"/>
+                  <minimumSize width="1" height="34"/>
+                  <preferredSize width="40" height="49"/>
+                </properties>
+                <border type="empty">
+                  <title-color color="-1906448"/>
+                </border>
+                <children>
+                  <component id="1742e" class="javax.swing.JButton" binding="clashesButton" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <background color="-15681151"/>
+                      <borderPainted value="false"/>
+                      <contentAreaFilled value="true"/>
+                      <focusPainted value="false"/>
+                      <font size="15" style="1"/>
+                      <foreground color="-460036"/>
+                      <preferredSize width="180" height="40"/>
+                      <text value="Get Time Tables"/>
+                      <verticalAlignment value="0"/>
+                    </properties>
+                  </component>
+                  <component id="d27da" class="javax.swing.JButton" binding="updateScheduleButton">
+                    <constraints/>
+                    <properties>
+                      <actionCommand value="Update Batch"/>
+                      <background color="-12877066"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <foreground color="-1"/>
+                      <horizontalTextPosition value="11"/>
+                      <preferredSize width="180" height="40"/>
+                      <text value="Update Schedule"/>
+                    </properties>
+                  </component>
+                  <component id="aabdd" class="javax.swing.JButton" binding="deleteSchduleButton">
+                    <constraints/>
+                    <properties>
+                      <actionCommand value="Delete Batch"/>
+                      <background color="-1096636"/>
+                      <borderPainted value="false"/>
+                      <focusPainted value="false"/>
+                      <foreground color="-1"/>
+                      <preferredSize width="180" height="40"/>
+                      <text value="Delete Schdule"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="a93de" binding="TeachersPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <card name="TeachersPanel"/>
+            </constraints>
+            <properties>
+              <background color="-920071"/>
+            </properties>
+            <border type="empty" title=" Teacher Menu" title-justification="2">
+              <font size="20" style="1"/>
+              <title-color color="-14800581"/>
+            </border>
+            <children>
+              <grid id="cbb16" binding="TeacherSUbPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="empty" title=""/>
+                <children>
+                  <grid id="5462" binding="ActionButtonPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="empty" title=""/>
+                    <children>
+                      <component id="86a6e" class="javax.swing.JButton" binding="addTeacherButton" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <background color="-15681151"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Add Teacher"/>
+                        </properties>
+                      </component>
+                      <component id="5d8a4" class="javax.swing.JButton" binding="updateTeacherButton" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <background color="-12877066"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Update Teacher"/>
+                        </properties>
+                      </component>
+                      <component id="83d69" class="javax.swing.JButton" binding="deleteTeacherButton" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <background color="-1096636"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="180" height="40"/>
+                          <text value="Delete Teacher"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="eac23" binding="SearchBarPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="empty">
+                      <title-color color="-1906448"/>
+                      <size top="10" left="0" bottom="10" right="0"/>
+                      <color color="-1906448"/>
+                    </border>
+                    <children>
+                      <component id="30705" class="javax.swing.JButton" binding="searchTeacherButton">
+                        <constraints border-constraint="East"/>
+                        <properties>
+                          <background color="-12877066"/>
+                          <borderPainted value="false"/>
+                          <focusPainted value="false"/>
+                          <foreground color="-1"/>
+                          <preferredSize width="150" height="34"/>
+                          <text value="Search Teacher"/>
+                        </properties>
+                      </component>
+                      <component id="d7f24" class="javax.swing.JTextField" binding="searchTeacherByIdTextField" default-binding="true">
+                        <constraints border-constraint="West"/>
+                        <properties>
+                          <background color="-460036"/>
+                          <caretColor color="-4473925"/>
+                          <font size="14"/>
+                          <foreground color="-13418155"/>
+                          <preferredSize width="1000" height="34"/>
+                          <text value="Search Teacher By Id"/>
+                          <toolTipText value="Search Teacher by Name or Id"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <scrollpane id="39042" binding="TeachersList">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-920071"/>
+                    </properties>
+                    <border type="none" title="" title-justification="2">
+                      <font name="Consolas" size="20" style="1"/>
+                    </border>
+                    <children>
+                      <component id="8945b" class="javax.swing.JTable" binding="table2" default-binding="true">
+                        <constraints/>
+                        <properties>
+                          <gridColor color="-920071"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                  <component id="98e55" class="javax.swing.JLabel" binding="TeacherListLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20" style="1"/>
+                      <foreground color="-14800581"/>
+                      <text value="Teachers List"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
